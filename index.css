@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+header{
+    
+    margin: 1.2em 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    margin-right: 1em;
+}
+#logo{
+    max-width: 100%;
+    height: 40px;
+    margin-right: 1.2em;
+}
+#text-input{
+    display: flex;
+    width: 650px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 0.8em;
+    border-radius: 2em;
+}
+input{
+    width: 100%;
+    border: none;
+    background-color: inherit;
+    padding-left: 1em;
+}
+#profile-logo{
+    max-width: 100%;
+    height: 35px;
+	border-radius: 50%;
+}
+@media (max-width: 550px){
+    header{
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    #logo{
+        height: 20px;
+    }
+    #profile-logo{
+        height: 25px;
+    }
+}
