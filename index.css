@@ -67,6 +67,7 @@ input{
     max-width: 654px;
     margin-top: 2rem;
     margin-left: 9rem;
+    margin-bottom: 2em;
 }
 #principal-result{
     padding: 1em 1.5em;
@@ -119,9 +120,63 @@ input{
     color: blue;
     font-weight: 600;
 }
+#pagination{
+    margin: 0 auto;
+    width: 400px;
+}
+#pagination img{
+    width: 400px;
+}
+#pages{
+    margin-left: 2.8em;
+}
+#pages a:not(:first-child){
+    margin-left: 0.9em;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    color: #555;
+    font-size: 0.8em;
+}
+#locacion{
+    border-bottom: 1px solid #ddd;
+}
+#locacion p{
+    margin-left: 1em;
+}
+#footer-nav ul{
+    padding: 0;
+}
+#footer-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ul-nav li a{
+    color: #555;
+}
+.ul-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.ul-nav li{
+    margin: 0 1em;
+}
+.ul-nav li:hover{
+    text-decoration: underline;
+}
 @media (max-width: 750px){
     #main-container{
         margin: 2rem 1.2rem;
+    }
+    #footer-nav{
+        justify-content: center;
+    }
+    #link-ocultar{
+        display: none;
     }
 }
 @media (max-width: 550px){
